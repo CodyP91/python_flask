@@ -1,0 +1,14 @@
+CREATE PROCEDURE GetAllAnimals()
+BEGIN
+SELECT * FROM animal;
+END
+
+CREATE PROCEDURE GetDogs()
+BEGIN
+SELECT * FROM animal WHERE species='dog';
+END
+
+CREATE PROCEDURE GetCats()
+BEGIN
+SELECT * FROM animal WHERE species='cat';
+END
